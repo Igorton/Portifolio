@@ -181,3 +181,18 @@
         font-size: 22px;
     }
 }
+@media print{
+    .container .habilidades .item .icon{
+        min-width: 200px;
+    }
+    .imprimir{
+        display: block;
+        font-style: normal !important;
+    }
+    .redes-sociais{
+        display: none;
+    }
+    .container .contato .item p{
+        font-weight: normal;
+    }
+}

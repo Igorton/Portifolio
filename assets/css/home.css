@@ -131,6 +131,7 @@
 }
 .container .educacao .item{
     width: 100%;
+    min-height: 120px;
     min-height: 220px;
 }
 .container .educacao .item p{
@@ -210,8 +211,26 @@
     border-radius: 6px;
     background-color: #00E0FF;
 }
+.container .habilidades .item .icon .percentual-40{
+    width: 140px;
+    height: 100%;
+    border-radius: 6px;
+    background-color: #00E0FF;
+}
+.container .habilidades .item .icon .percentual-60{
+    width: 160px;
+    height: 100%;
+    border-radius: 6px;
+    background-color: #00E0FF;
+}
 .container .habilidades .item .icon .percentual-80{
     width: 180px;
+    height: 100%;
+    border-radius: 6px;
+    background-color: #00E0FF;
+}
+.container .habilidades .item .icon .percentual-90{
+    width: 190px;
     height: 100%;
     border-radius: 6px;
     background-color: #00E0FF;
@@ -240,17 +259,28 @@
 .container .contato .item{
     width: 100%;
     min-height: 80px;
+    text-align: center;
 }
-.container .contato .item h2{
+/* .container .contato .item h2{
     font-family: 'Oswald', sans-ser-if;
     font-weight: bold;
     font-size: 18px;
     text-transform: uppercase;
     color: #000000;
+} */
+#linkedin{
+    color: #265c96 !important;
 }
 .container .contato .item p{
     font-family: 'Oswald', sans-ser-if;
-    font-weight: normal;
+    font-weight: bold;
+    margin-top: 20px;
     font-size: 18px;
-    color: #00E0FF;
+    color: #000000;
+}
+a{
+    color: #000000;
+}
+.imprimir{
+    display: none;
 }

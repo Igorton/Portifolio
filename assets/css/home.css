@@ -1,0 +1,256 @@
+/* .container{
+    width: 90%;
+    max-width: 2024px;
+    min-width: 100%;
+    margin: auto;
+} */
+.container .nome{
+    width: 100%;
+    min-height: 100px;
+    margin-top: 5%;
+    margin-bottom: 100px;
+}
+.container .nome h1{
+    font-family: 'Oswald', sans-ser-if;
+    font-weight: bold;
+    font-size: 48px;
+    text-transform: uppercase;
+    color: #232323;
+}
+.container .nome h2{
+    font-family: 'Oswald', sans-ser-if;
+    font-weight: bold;
+    font-size: 32px;
+    text-transform: uppercase;
+    color: #00E0FF;
+}
+
+/* Sobre */
+.container .sobre{
+    width: 100%;
+    min-height: 100px;
+    margin-bottom: 100px;
+
+}
+.container .sobre .titulo-sobre{
+    width: 100%;
+    height: 50px;
+    border-bottom: 2px solid #00E0FF;
+    margin-bottom: 25px;
+}
+.container .sobre .titulo-sobre h2{
+    margin-top: 5%;
+    font-family: 'Oswald', sans-ser-if;
+    font-weight: bold;
+    font-size: 26px;
+    text-transform: uppercase;
+    color: #000000;
+}
+.container .sobre .paragrafo{
+    font-family: 'Oswald', sans-ser-if;
+    font-style: normal;
+    text-align: justify;
+    font-size: 18px;
+}
+.container .experiencia .titulo-experiencia{
+    width: 100%;
+    height: 50px;
+    border-bottom: 2px solid #00E0FF;
+    margin-bottom: 50px;
+}
+.container .experiencia .titulo-experiencia h2{
+    margin-top: 5%;
+    font-family: 'Oswald', sans-ser-if;
+    font-weight: bold;
+    font-size: 26px;
+    text-transform: uppercase;
+    color: #000000;
+}
+.container .experiencia .itens .item{
+    display: flex;
+    flex-direction: row;
+    width: 100%;
+    min-height: 220px;
+}
+.container .experiencia .itens .item .trabalhos{
+    min-width: 25%;
+    max-width: 25%;
+    min-height: 100px;
+}
+.container .experiencia .itens .item .trabalhos h2{
+    font-family: 'Oswald', sans-ser-if;
+    font-weight: bold;
+    font-size: 22px;
+    text-transform: uppercase;
+    margin-bottom: 10px;
+    color: #000000;
+}
+.container .experiencia .itens .item .trabalhos p{
+    font-family: 'Oswald', sans-ser-if;
+    font-weight: normal;
+    font-size: 22px;
+    text-transform: uppercase;
+    color: #000000;
+}
+.container .experiencia .itens .item .descricao{
+    width: 75%;
+    min-height: 100px;
+}
+.container .experiencia .itens .item .descricao h2{
+    font-family: 'Oswald', sans-ser-if;
+    font-weight: bold;
+    font-size: 22px;
+    margin-bottom: 10px;
+    text-transform: uppercase;
+    color: #00E0FF;
+}
+.container .experiencia .itens .item .descricao p{
+    font-family: 'Oswald', sans-ser-if;
+    font-style: normal;
+    text-align: justify;
+    font-size: 18px;
+    color: #000000;
+}
+.container .educacao{
+    width: 100%;
+    min-height: 100px;
+}
+.container .educacao .titulo-educacao{
+    width: 100%;
+    height: 50px;
+    border-bottom: 2px solid #00E0FF;
+    margin-bottom: 50px;
+}
+.container .educacao .titulo-educacao h2{
+    margin-top: 5%;
+    font-family: 'Oswald', sans-ser-if;
+    font-weight: bold;
+    font-size: 26px;
+    text-transform: uppercase;
+    color: #000000;
+}
+.container .educacao .item{
+    width: 100%;
+    min-height: 220px;
+}
+.container .educacao .item p{
+    font-family: 'Oswald', sans-ser-if;
+    text-align: justify;
+    font-weight: normal;
+    font-size: 18px;
+    color: #000000;
+}
+.container .educacao .item .titulo{
+    margin-bottom: 10px;
+}
+.container .educacao .item .titulo h2{
+    font-family: 'Oswald', sans-ser-if;
+    font-weight: bold;
+    font-size: 22px;
+    text-transform: uppercase;
+    color: #232323;
+}
+.container .educacao .item .titulo span{
+    font-family: 'Oswald', sans-ser-if;
+    font-weight: bold;
+    font-size: 22px;
+    text-transform: uppercase;
+    color: #00E0FF;
+}
+
+/* Habilidades */
+.container .habilidades{
+    width: 100%;
+    min-height: 100px;
+    margin-bottom: 100px;
+}
+.container .habilidades .titulo-habilidade{
+    width: 100%;
+    height: 50px;
+    border-bottom: 2px solid #00E0FF;
+    margin-bottom: 50px;
+}
+.container .habilidades .titulo-habilidade h2{
+    margin-top: 5%;
+    font-family: 'Oswald', sans-ser-if;
+    font-weight: bold;
+    font-size: 26px;
+    text-transform: uppercase;
+    color: #000000;
+}
+.container .habilidades .item{
+    display: flex;
+    flex-direction: row;
+    width: 50%;
+    margin-bottom: 20px;
+    align-items: center;
+}
+.container .habilidades .item h2{
+    font-family: 'Oswald', sans-ser-if;
+    font-weight: bold;
+    font-size: 18px;
+    text-transform: uppercase;
+    color: #000000;
+}
+.container .habilidades .item .titulo{
+    min-width: 150px;
+}
+.container .habilidades .item .icon{
+    position: relative;
+    width: 200px;
+    height: 18px;
+    overflow: hidden;
+    border: 1px solid #000000;
+    border-radius: 6px;
+    background: transparent;
+}
+.container .habilidades .item .icon .percentual-30{
+    width: 130px;
+    height: 100%;
+    border-radius: 6px;
+    background-color: #00E0FF;
+}
+.container .habilidades .item .icon .percentual-80{
+    width: 180px;
+    height: 100%;
+    border-radius: 6px;
+    background-color: #00E0FF;
+}
+
+/* Contato */
+.container .contato{
+    width: 100%;
+    min-height: 200px;
+    margin-bottom: 50px;
+}
+.container .contato .titulo-contato{
+    width: 100%;
+    min-height: 50px;
+    border-bottom: 2px solid #00E0FF;
+    margin-bottom: 50px;
+}
+.container .contato .titulo-contato h2{
+    margin-top: 5%;
+    font-family: 'Oswald', sans-ser-if;
+    font-weight: bold;
+    font-size: 26px;
+    text-transform: uppercase;
+    color: #000000;
+}
+.container .contato .item{
+    width: 100%;
+    min-height: 80px;
+}
+.container .contato .item h2{
+    font-family: 'Oswald', sans-ser-if;
+    font-weight: bold;
+    font-size: 18px;
+    text-transform: uppercase;
+    color: #000000;
+}
+.container .contato .item p{
+    font-family: 'Oswald', sans-ser-if;
+    font-weight: normal;
+    font-size: 18px;
+    color: #00E0FF;
+}

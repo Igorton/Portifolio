@@ -1,0 +1,183 @@
+@media screen and (max-width: 768px){
+    .container .habilidades .item{
+        display: flex;
+        flex-direction: row;
+        align-items: center;
+        width: 100%;
+        margin-bottom: 20px;
+    }
+    .container .experiencia .itens .item{
+        margin-bottom: 50px;
+        
+    }
+}
+
+@media screen and (max-width: 425px){
+    .container .nome{
+        margin-top: 10%;
+        margin-bottom: 50px;
+    }
+    .container .nome h1{
+        font-size: 28px;
+    }
+    .container .nome h2{
+        font-size: 22px;
+    }
+    .container .sobre{
+        width: 100%;
+        min-height: 100px;
+        margin-bottom: 50px;
+    }
+    .container .sobre .titulo-sobre h2{
+        margin-top: 5%;
+        font-size: 22px;
+    }
+    .container .sobre .paragrafo{
+        font-size: 18px;
+    }
+    .container .sobre .titulo-experiencia h2{
+        margin-top: 5%;
+        font-size: 22px;
+    }
+    .container .experiencia .itens .item{
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        width: 100%;
+        min-height: 220px;
+        margin-bottom: 50px;
+    }
+    .container .experiencia .itens .item .trabalhos{
+        min-width: 100%;
+        min-height: 80px;
+    }
+    .container .experiencia .itens .item .descricao{
+        min-width: 100%;
+        min-height: 100px;
+    }
+    .container .experiencia .itens .item .descricao h2{
+        margin-bottom: 20px;
+    }
+    .container .educacao .titulo-educacao h2{
+        margin-top: 5%;
+        font-size: 22px;
+    }
+    .container .educacao .item{
+        margin-bottom: 50px;
+    }
+    .container .educacao .item .titulo{
+        margin-bottom: 20px;
+    }
+    .container .educacao .item .titulo h2{
+        font-size: 22px;
+    }
+    .container .educacao .item .titulo span{
+        font-size: 22px;
+    }
+    .container .habilidades .titulo-habilidade h2{
+        margin-top: 5%;
+        font-size: 22px;
+    }
+    .container .habilidades .item{
+        display: flex;
+        flex-direction: row;
+        align-items: center;
+        width: 100%;
+        margin-bottom: 20px;
+    }
+    .container .contato .titulo-contato h2{
+        margin-top: 5%;
+        font-size: 22px;
+    }
+}
+@media screen and (max-width: 375px){
+    .container .nome{
+        margin-top: 10%;
+        margin-bottom: 50px;
+    }
+    .container .nome h1{
+        font-size: 28px;
+    }
+    .container .nome h2{
+        font-size: 22px;
+    }
+    .container .sobre{
+        width: 100%;
+        min-height: 100px;
+        margin-bottom: 50px;
+    }
+    .container .sobre .titulo-sobre h2{
+        margin-top: 5%;
+        font-size: 22px;
+    }
+    .container .sobre .paragrafo{
+        font-size: 18px;
+    }
+    .container .experiencia .titulo-experiencia h2{
+        margin-top: 5%;
+        font-size: 22px;
+    }
+    .container .experiencia .itens .item{
+        display: flex;
+        flex-direction: column;
+        width: 100%;
+        min-height: 220px;
+        margin-bottom: 50px;
+    }
+    .container .experiencia .itens .item .trabalhos{
+        min-width: 100%;
+        min-height: 80px;
+    }
+    .container .experiencia .itens .item .trabalhos h2{
+        text-align: center;
+    }
+    .container .experiencia .itens .item .trabalhos p{
+        text-align: center;
+    }
+    .container .experiencia .itens .item .descricao{
+        width: 100%;
+        min-height: 100px;
+    }
+    .container .experiencia .itens .item .descricao h2{
+        text-align: center;
+        margin-bottom: 20px;
+    }
+    .container .educacao .titulo-educacao h2{
+        margin-top: 5%;
+        font-size: 22px;
+    }
+    .container .educacao .item{
+        margin-bottom: 50px;
+    }
+    .container .educacao .item .titulo{
+        margin-bottom: 20px;
+    }
+    .container .educacao .item .titulo h2{
+        font-size: 22px;
+    }
+    .container .educacao .item .titulo span{
+        font-size: 22px;
+    }
+    .container .habilidades .titulo-habilidade h2{
+        margin-top: 5%;
+        font-size: 22px;
+    }
+    .container .habilidades .item{
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        width: 100%;
+        margin-bottom: 20px;
+    }
+    .container .habilidades .item .titulo{
+        min-width: 100%;
+        margin-bottom: 10px;
+    }
+    .container .habilidades .item .icon{
+        width: 100%;
+    }
+    .container .contato .titulo-contato h2{
+        margin-top: 5%;
+        font-size: 22px;
+    }
+}

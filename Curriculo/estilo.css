@@ -1,0 +1,293 @@
+@import url('https://fonts.googleapis.com/css2?family=Boldonse&family=Lato:ital,wght@0,100;0,300;0,400;0,700;0,900;1,100;1,300;1,400;1,700;1,900&display=swap');
+
+/*Geral*/
+*{
+    margin: auto;
+    padding: 0;
+    font-family: "Lato", sans-serif;
+}
+body{
+    background-color: rgb(184, 184, 184);
+}
+a:link {
+    color: white;
+    text-decoration: none;
+    font-size: 20px;
+}
+a:visited {
+    color: white;
+}
+a:hover {
+    color: #cacfd2 ;
+}
+.esconder{
+    background-color: gray;
+    color: gray;
+}
+.esconder:hover{
+    background-color: transparent;
+    color: black;
+}
+
+
+/*Outros*/
+.container{
+    width: 900px;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    position: absolute;
+    background-color: white;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    border-radius: 10px;
+    padding: 10px;
+}
+.secoes {
+    display: flex;
+    border-radius: 10px;
+}
+
+/* seção 1 */
+
+.secao-1{
+    color: white;
+    width: 30%;
+    padding: 10px;
+    background-color: #34495e;
+    text-align: justify;
+    display: flex;
+    flex-direction: column;
+    border-radius: 10px;
+}
+.secao-1 .nome{
+    padding-bottom: 20px;
+}
+.secao-1 .nome_comp{
+    font-weight: bold;
+    font-size: 20px;
+    border-bottom: 1px solid black;
+    margin-bottom: 10px;
+}
+.secao-1 .contato{
+    font-size: 15px;
+}
+.secao-1 .perfil p{
+    padding-bottom: 10px;
+}
+.secao-1 .links{
+    display: flex;
+    margin-top: auto;
+    padding-top: 20px;
+}
+.secao-1 .area{
+    text-align: center;
+    margin-bottom: 20px;
+    font-size: 20px;
+    font-weight: bold;
+}
+.secao-1 .sobre{
+    margin-bottom: 20px;
+}
+.avatar {
+    vertical-align: middle;
+    width: 250px;
+    height: 250px;
+    border-radius: 50%;
+    border: 5px solid white;
+    margin-bottom: 30px;
+}
+
+/* seção 2 */
+
+.secao-2{
+    padding-left: 20px;
+    width: 70%;
+}
+
+/* Informações */
+
+.secao-2 .informacoes{
+    margin-bottom: 20px;
+}
+.secao-2 .titulo-informacao{
+    border-bottom: 2px solid #34495e;
+    color: #34495e;
+    font-size: 18px;
+    font-weight: bold;
+    text-transform: uppercase;
+    margin-bottom: 10px;
+}
+.secao-2 .informacoes .item{
+    margin-bottom: 5px;
+}
+.secao-2 .informacoes .tipos{
+    font-weight: bold;
+    text-transform: uppercase;
+}
+
+/* Experiências */
+.secao-2 .experiencia{
+    margin-bottom: 20px;
+}
+.secao-2 .titulo-experiencia{
+    border-bottom: 2px solid #34495e;
+    color: #34495e;
+    font-size: 18px;
+    font-weight: bold;
+    text-transform: uppercase;
+    margin-bottom: 10px;
+}
+.secao-2 .experiencia .item{
+    margin-bottom: 5px;
+}
+.secao-2 .empresa{
+    font-weight: bold;
+    text-transform: uppercase;
+    margin-bottom: 5px;
+}
+
+/* Formações */
+.secao-2 .formacao{
+    margin-bottom: 20px;
+}
+.secao-2 .titulo-formacao{
+    border-bottom: 2px solid #34495e;
+    color: #34495e;
+    font-size: 18px;
+    font-weight: bold;
+    text-transform: uppercase;
+    margin-bottom: 10px;
+}
+.secao-2 .formacao .item{
+    margin-bottom: 5px;
+}
+.secao-2 .instituicao{
+    font-weight: bold;
+    text-transform: uppercase;
+    margin-bottom: 5px;
+}
+
+/* Competências */
+.secao-2 .competencias{
+    margin-bottom: 20px;
+}
+.secao-2 .titulo-competencia{
+    border-bottom: 2px solid #34495e;
+    color: #34495e;
+    font-size: 18px;
+    font-weight: bold;
+    text-transform: uppercase;
+    margin-bottom: 10px;
+}
+.secao-2 .competencias .titulo{
+    margin-right: 5px;
+    width: 150px;
+}
+.secao-2 .competencias .item{
+    margin-bottom: 5px;
+    text-transform: uppercase;
+    font-weight: bold;
+    display: flex;
+    width: 100% !important;
+}
+.secao-2 .competencias .valor{
+    width: 100%;
+    height: 19px;
+    background: #ddd !important; 
+    border-radius: 10px;
+    background: transparent;
+    display: flex;
+    flex-direction: column-reverse;
+    align-items: center;
+    flex-wrap: wrap;
+    justify-content: space-evenly;
+    align-content: flex-start;
+}
+.competencias .percentual{
+    height: 100%;
+    border-radius: 6px;
+    background-color: #34495e;
+}
+.percentual-90 { width: 90%; }
+.percentual-80 { width: 80%; }
+.percentual-70 { width: 70%; }
+.percentual-60 { width: 60%; }
+.percentual-50 { width: 50%; }
+.percentual-40 { width: 40%; }
+.percentual-30 { width: 30%; }
+
+@media screen and (max-width: 938px){
+    .container{
+        width: 700px;
+        padding: 5px;
+    }
+    .secao-1 .nome_comp{
+        font-size: 16px;
+    }
+    .avatar {
+        vertical-align: middle;
+        width: 200px;
+        height: 200px;
+        border-radius: 50%;
+        border: 5px solid white;
+        margin-bottom: 30px;
+    }
+}
+@media screen and (max-width: 728px) {
+    .container{
+        width: 500px;
+        padding: 5px;
+    }
+    .secao-1 .nome_comp{
+        font-size: 12px;
+    }
+    .secao-1 .contato{
+        font-size: 10px;
+    }
+    .secao-1 .area{
+        font-size: 12px;
+    }
+    .secao-1 .sobre{
+        font-size: 12px;
+    }
+    .secao-1 .idioma{
+        font-size: 10px;
+    }
+    .secao-1 .links a{
+        font-size: 12px !important;
+    }
+    .avatar {
+        vertical-align: middle;
+        width: 120px;
+        height: 120px;
+        border-radius: 50%;
+        border: 5px solid white;
+        margin-bottom: 30px;
+    }
+
+    /*Seção 2*/
+    .secao-2 .titulo-informacao{
+        font-size: 10px;
+    }
+    .secao-2 .informacoes .itens{
+        font-size: 12px;
+    }
+    .secao-2 .titulo-experiencia{
+        font-size: 10px;
+    }
+    .secao-2 .experiencia .itens{
+        font-size: 12px;
+    }
+    .secao-2 .titulo-formacao{
+        font-size: 10px;
+    }
+    .secao-2 .formacao .itens{
+        font-size: 12px;
+    }
+    .secao-2 .titulo-competencia{
+        font-size: 10px;
+    }
+    .secao-2 .competencias .itens{
+        font-size: 12px;
+    }
+}
